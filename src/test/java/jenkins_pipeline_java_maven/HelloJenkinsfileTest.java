@@ -1,5 +1,3 @@
-package jenkins_pipeline_java_maven;
-
 import static org.junit.Assert.*;
 
 import org.junit.Test;
@@ -13,4 +11,8 @@ public class HelloJenkinsfileTest {
 		assertEquals("HelloJenkinsfile", new HelloJenkinsfile().go());
 	}
 
+         @Test
+        public void test() {
+                assertEquals("HelloJenkinsfile", new HelloJenkinsfile().go());
+       }
 }
